@@ -7,7 +7,7 @@ import { useState } from "react";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
-
+import { useRouter } from 'next/navigation'
 // import { Noto_Serif_Georgian } from "next/font/google";
 // const Georigian = Noto_Serif_Georgian({
 //   weight: "500",
@@ -17,6 +17,7 @@ import ListItem from "@mui/material/ListItem";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const router = useRouter()
 
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
@@ -148,6 +149,7 @@ export default function Header() {
             height={10}
             width={50}
             style={{ cursor: "pointer" }}
+            onClick={()=>{router.push('/login')}}
           ></Image>
         </Tooltip>
       </AppBar>
