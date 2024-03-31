@@ -46,10 +46,10 @@ export default function BookWithGD() {
           >
             <Image src={"/customer.png"} width={80} height={80}></Image>
             <h2 className=" font-home font-bold text-lg  m-2">
-              Free cancellation
+            300,000+ experiences
             </h2>
             <p className=" font-home text-slate-800">
-              Keep your trip flexible.
+            Create lasting memories across the globe.
             </p>
           </div>
           <div
@@ -62,10 +62,10 @@ export default function BookWithGD() {
           >
             <Image src={"/pay.png"} width={80} height={80}></Image>
             <h2 className=" font-home font-bold text-lg  m-2">
-              Free cancellation
+            Book now, pay later
             </h2>
             <p className=" font-home text-slate-800">
-              Keep your trip flexible.
+            Reserve your spot.
             </p>
           </div>
           <div
@@ -78,10 +78,10 @@ export default function BookWithGD() {
           >
             <Image src={"/star.png"} width={80} height={80}></Image>
             <h2 className=" font-home font-bold text-lg  m-2">
-              Free cancellation
+            Reliable reviews
             </h2>
             <p className=" font-home text-slate-800">
-              Keep your trip flexible.
+            140,000+ Trustpilot reviews averaging 4.3 stars.
             </p>
           </div>
         </Carousel>
@@ -166,7 +166,7 @@ export default function BookWithGD() {
           >
             <Image src={"/star.png"} width={80} height={80}></Image>
             <h2 className=" font-home font-bold text-lg  m-2">
-              Reliable reviews.
+              Reliable reviews
             </h2>
             <p className=" font-home text-slate-800">
               140,000+ Trustpilot reviews averaging 4.3 stars.
